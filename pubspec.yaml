@@ -1,0 +1,33 @@
+name: bk_app
+description: A modern Flutter Inventory Management App.
+
+version: 2.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.5+1
+
+  # Local Storage - Offline First
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Unique IDs
+  uuid: ^4.4.0
+
+  # UI
+  flutter_spinkit: ^5.2.2
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
